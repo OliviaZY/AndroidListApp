@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">List App</string>
+    <string-array name="items">
+        <item>peach</item>
+        <item>tomato</item>
+        <item>quash</item>
+    </string-array>
+    
+    <string-array name="prices">
+        <item>$0.99</item>
+        <item>1.49</item>
+        <item>0.89</item>
+    </string-array>
+    
+    <string-array name="scriptions">
+        <item>fresh peaches from Inidana, terre haute</item>
+        <item>fresh salad tomato from Ohio</item>
+        <item>fresh squash from Iowa, cedar rapids</item>
+    </string-array>
 </resources>
