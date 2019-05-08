@@ -42,7 +42,7 @@ public class ItemAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         View v = mInflater.inflate(R.layout.my_listview_details, null);
         TextView nametextView = (TextView) v.findViewById(R.id.nameTextView);
-        TextView pricetextView = (TextView) v.findViewById(R.id.priceTextView);
+        TextView priceTextView = (TextView) v.findViewById(R.id.priceTextView);
         TextView descriptiontextView = (TextView) v.findViewById(R.id.descriptionTextView );
 
         String name = items[position];
@@ -50,7 +50,7 @@ public class ItemAdapter extends BaseAdapter {
         String cost = prices[position];
 
         nametextView.setText(name);
-        pricetextView.setText(cost);
+        priceTextView.setText(cost);
         descriptiontextView.setText(desp);
 
         return v;
