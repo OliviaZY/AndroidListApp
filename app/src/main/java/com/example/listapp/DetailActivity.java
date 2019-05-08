@@ -17,6 +17,11 @@ public class DetailActivity extends AppCompatActivity {
 
         Intent in = getIntent();
         int index = in.getIntExtra("com.example.listapp.index",-1);
+        if(index>-1) {
+            int pic = getImage(index);
+            ImageView img = (ImageView) findViewById(R.id.imageView);
+            scaleImage(img,pic);
+        }
 
     }
 
